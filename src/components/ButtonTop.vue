@@ -2,7 +2,9 @@
 import { onMounted, onUnmounted, ref } from 'vue';
 
 const showButton = ref(false);
-const handleScroll = () => {
+
+
+const handleScroll: () => void = () => {
     if (window.scrollY > 200) {
         showButton.value = true;
     } else {
@@ -10,7 +12,7 @@ const handleScroll = () => {
     }
 };
 
-const scrollToTop = () => {
+const scrollToTop: () => void = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
