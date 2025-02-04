@@ -1,39 +1,35 @@
-# vue-ts-learn
+# Rick and Morty API
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es un proyecto que consume la API de [Rick and Morty](https://rickandmortyapi.com/) usando Vue 3. El objetivo del proyecto es mostrar información sobre los personajes, episodios y ubicaciones de la serie a través de una interfaz sencilla y atractiva.
 
-## Recommended IDE Setup
+## Tecnologías utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Vue 3**: Framework de JavaScript para construir interfaces de usuario interactivas.
+- **Axios**: Librería para realizar peticiones HTTP a la API de Rick y Morty.
+- **Tailwind**: Para el diseño y la apariencia del sitio.
 
-## Type Support for `.vue` Imports in TS
+## Instalación
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+1. Clona este repositorio en tu máquina local:
 
-## Customize configuration
+   ```bash
+   git clone https://github.com/tu-usuario/rick-morty-vue3.git
+   ```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. Navega a la carpeta del proyecto
 
-## Project Setup
+   ```bash
+   cd rick-morty-vue3
+   ```
 
-```sh
-npm install
-```
+3. Instala las dependencias con npm
 
-### Compile and Hot-Reload for Development
+   ```bash
+   npm install
+   ```
 
-```sh
-npm run dev
-```
+4. Inicia el servidor de desarrollo
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+   ```bash
+   npm run dev
+   ```

@@ -7,7 +7,7 @@
 <template>
 
     <header class="relative flex justify-center items-center min-h-[60vh]">
-        <div class="absolute inset-0 bg-[url('/bg.png')]  blur-sm"></div>
+        <div class="absolute inset-0 bg-[url('/bg.png')] object-cover blur-sm"></div>
 
         <div class="z-10">
             <h1 class="text-5xl font-bold text-white">
